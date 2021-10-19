@@ -4602,7 +4602,7 @@ fsevents@~2.3.2:
 
 "laravel-mix@https://github.com/josefschabasser/laravel-mix#fix_cli_with_yarn":
   version: 6.0.34
-  resolution: "laravel-mix@https://github.com/josefschabasser/laravel-mix.git#commit=faa8dce3bd60f02e0f9bd47cf1b1585599ecf4de"
+  resolution: "laravel-mix@https://github.com/josefschabasser/laravel-mix.git#commit=a6bb28a7a8d50197e0304256886d234a09abda06"
   dependencies:
     "@babel/core": ^7.14.5
     "@babel/plugin-proposal-object-rest-spread": ^7.14.5
@@ -4655,11 +4655,18 @@ fsevents@~2.3.2:
     webpackbar: ^5.0.0-3
     yargs: ^17.0.1
   peerDependencies:
+    "@babel/core": ^7.14.5
+    "@babel/plugin-proposal-object-rest-spread": ^7.14.5
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.14.5
+    "@babel/preset-env": ^7.14.5
     postcss: ^8.3.1
+    webpack: ^5.38.1
+    webpack-cli: ^4.7.2
   bin:
     laravel-mix: ./bin/cli.js
     mix: ./bin/cli.js
-  checksum: 5a27a503f8f79c56a82d6694a65b4f4dd160af185c57bb4455f0c7861b4ab8f42fc86b232970180abdaa74f18aaa552871747dc861864fc4d39fc8c8e4950b2c
+  checksum: 9a42215d96957fa9147f223c5299a0c97993ab7dbd914f3191d5c4efc4044cb63f8251f6cce97a4adf8115254e782636f47c29854c9795d63e623ed2ffb261da
   languageName: node
   linkType: hard
 

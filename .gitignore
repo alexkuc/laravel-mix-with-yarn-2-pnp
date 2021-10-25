@@ -1,19 +1,30 @@
-/node_modules
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
 .env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
+
+# composer
+/vendor
+
+# npm and yarn v1 - remove?
 npm-debug.log
 yarn-error.log
+/node_modules
+
+# yarn v2
 .yarn/*
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+# laravel-mix
+public/css
+public/js
+public/mix-manifest.json

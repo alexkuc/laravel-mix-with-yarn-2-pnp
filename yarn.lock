@@ -4600,9 +4600,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"laravel-mix@https://github.com/josefschabasser/laravel-mix#fix_cli_with_yarn":
+"laravel-mix@https://github.com/laravel-mix/laravel-mix#master":
   version: 6.0.34
-  resolution: "laravel-mix@https://github.com/josefschabasser/laravel-mix.git#commit=a6bb28a7a8d50197e0304256886d234a09abda06"
+  resolution: "laravel-mix@https://github.com/laravel-mix/laravel-mix.git#commit=5edaf778ea0d11a4cb360082ae888bee591b9179"
   dependencies:
     "@babel/core": ^7.14.5
     "@babel/plugin-proposal-object-rest-spread": ^7.14.5
@@ -4666,7 +4666,7 @@ fsevents@~2.3.2:
   bin:
     laravel-mix: ./bin/cli.js
     mix: ./bin/cli.js
-  checksum: 9a42215d96957fa9147f223c5299a0c97993ab7dbd914f3191d5c4efc4044cb63f8251f6cce97a4adf8115254e782636f47c29854c9795d63e623ed2ffb261da
+  checksum: 5fcdedeb669d176ca1f2b0426af6b623d98c03116f08dcc999a7a83091f6ff50a1353de023e43b7fe62f81aaa512980801c6e3b3fff6a4d70eac27e8a8a9dffc
   languageName: node
   linkType: hard
 
@@ -6470,7 +6470,7 @@ fsevents@~2.3.2:
     axios: ^0.21
     babel-loader: ^8.2.2
     css-loader: ^5.2.4
-    laravel-mix: "https://github.com/josefschabasser/laravel-mix#fix_cli_with_yarn"
+    laravel-mix: "https://github.com/laravel-mix/laravel-mix#master"
     lodash: ^4.17.19
     postcss: ^8.3.1
     postcss-loader: ^5.2.0

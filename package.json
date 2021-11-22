@@ -18,7 +18,7 @@
         "axios": "^0.21",
         "babel-loader": "^8.2.2",
         "css-loader": "^5.2.4",
-        "laravel-mix": "https://github.com/laravel-mix/laravel-mix#master",
+        "laravel-mix": "^6.0.37",
         "lodash": "^4.17.19",
         "postcss": "^8.3.1",
         "postcss-loader": "^5.2.0",
